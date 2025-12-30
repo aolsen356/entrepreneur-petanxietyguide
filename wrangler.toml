@@ -1,0 +1,6 @@
+# Pet Anxiety Guide - Cloudflare Pages Configuration
+name = "pet-anxiety-guide"
+compatibility_date = "2024-01-01"
+
+# Static site - no workers needed
+# Deploy command: npx wrangler pages deploy . --project-name=pet-anxiety-guide

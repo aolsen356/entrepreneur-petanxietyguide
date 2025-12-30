@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Anxiety Calculator - Free Assessment Tool | Pet Anxiety Guide</title>
+    <meta name="description" content="Free dog anxiety assessment. Answer 10 quick questions to discover your dog's anxiety level and get personalized calming product recommendations.">
+    <meta name="keywords" content="dog anxiety calculator, dog anxiety test, dog stress assessment, is my dog anxious, CBD for dogs">
+    <link rel="canonical" href="https://petanxietyguide.pages.dev/dog-anxiety-calculator.html">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#4F46E5',
+                        secondary: '#10B981',
+                        accent: '#F59E0B'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gradient-to-br from-indigo-50 to-white min-h-screen">
+    <!-- Header -->
+    <header class="bg-white shadow-sm">
+        <nav class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="/" class="text-2xl font-bold text-primary">Pet Anxiety Guide</a>
+            <div class="space-x-6">
+                <a href="index.html" class="text-gray-600 hover:text-primary">Home</a>
+                <a href="dog-anxiety-calculator.html" class="text-primary font-semibold">Dogs</a>
+                <a href="cat-anxiety-calculator.html" class="text-gray-600 hover:text-primary">Cats</a>
+                <a href="products.html" class="text-gray-600 hover:text-primary">Products</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Calculator Section -->
+    <section class="max-w-3xl mx-auto px-4 py-12">
+        <div class="text-center mb-8">
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Dog Anxiety Calculator</h1>
+            <p class="text-lg text-gray-600">Answer these 10 questions about your dog's behavior to assess their anxiety level.</p>
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="mb-8">
+            <div class="flex justify-between text-sm text-gray-600 mb-2">
+                <span>Progress</span>
+                <span id="progress-text">Question 1 of 10</span>
+            </div>
+            <div class="w-full bg-gray-200 rounded-full h-3">
+                <div id="progress-bar" class="bg-primary h-3 rounded-full transition-all duration-300" style="width: 10%"></div>
+            </div>
+        </div>
+
+        <!-- Quiz Container -->
+        <div id="quiz-container" class="bg-white rounded-2xl shadow-lg p-8">
+            <!-- Questions will be inserted here by JavaScript -->
+        </div>
+
+        <!-- Results Container (hidden initially) -->
+        <div id="results-container" class="bg-white rounded-2xl shadow-lg p-8 hidden">
+            <!-- Results will be inserted here by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-8 mt-12">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <p class="text-sm mb-2">&copy; 2025 Pet Anxiety Guide. All rights reserved.</p>
+            <p class="text-xs">This calculator is for informational purposes only. Consult a veterinarian for professional advice.</p>
+        </div>
+    </footer>
+
+    <script src="js/dog-calculator.js"></script>
+</body>
+</html>
