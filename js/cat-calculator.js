@@ -110,7 +110,7 @@ const products = {
         {
             name: "Feliway Classic Diffuser",
             description: "Synthetic feline pheromone that helps cats feel calm and secure",
-            link: "https://www.amazon.com/s?k=feliway+diffuser&tag=petanxiety-20",
+            link: "https://www.amazon.com/s?k=feliway+diffuser&tag=kcwd-20",
             price: "$25-35"
         }
     ],
@@ -125,7 +125,7 @@ const products = {
         {
             name: "Feliway Multi-Cat Diffuser",
             description: "Calming pheromones for multi-cat households to reduce conflict",
-            link: "https://www.amazon.com/s?k=feliway+multicat&tag=petanxiety-20",
+            link: "https://www.amazon.com/s?k=feliway+multicat&tag=kcwd-20",
             price: "$30-40"
         }
     ],

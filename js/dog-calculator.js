@@ -110,7 +110,7 @@ const products = {
         {
             name: "Calming Dog Bed",
             description: "A cozy donut bed that provides security for mild anxiety",
-            link: "https://www.amazon.com/s?k=calming+dog+bed&tag=petanxiety-20",
+            link: "https://www.amazon.com/s?k=calming+dog+bed&tag=kcwd-20",
             price: "$25-45"
         }
     ],
@@ -125,7 +125,7 @@ const products = {
         {
             name: "ThunderShirt",
             description: "Pressure wrap that provides calming effect during storms and stress",
-            link: "https://www.amazon.com/s?k=thundershirt+dog&tag=petanxiety-20",
+            link: "https://www.amazon.com/s?k=thundershirt+dog&tag=kcwd-20",
             price: "$40-50"
         }
     ],
